@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import gameState from './gamestate';
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  gameState: gameState
 });
 
 export default rootReducer;
