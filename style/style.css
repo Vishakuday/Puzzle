@@ -53,6 +53,7 @@
     margin-right: 20px;
     height: 50px;
     line-height: 45px;
+    cursor: pointer;
 }
 .answer-option :hover {
 background: white;
@@ -66,4 +67,9 @@ color: #236d44;
     text-align: center;
     font-size: 50px;
     margin-top:30px;
+}
+
+.answer-option:hover {
+    background: white;
+    color: #236d44;
 }
